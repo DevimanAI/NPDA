@@ -12,6 +12,14 @@
 
 این ابزار برای دانشجویان، محققان و هر کسی که به درک عمیق‌تر اتوماتا و نظریه محاسبات علاقه‌مند است، مفید است.
 
+**Example Output:**
+
+**NPDA Execution Diagram:**
+![NPDA Execution Diagram](npda_execution.png)
+
+**NPDA Definition Diagram:**
+![NPDA Definition Diagram](npda_definition_diagram.png)
+
 ## Input File Format
 
 The NPDA definition should be provided in a text file (e.g., `npda_definition.txt`). The file should contain the following sections:
@@ -51,14 +59,6 @@ Transitions should be defined one per line in the format:
 `q0,b,A -> q1,lambda`
 `q1,b,A -> q1,lambda`
 `q1,c,Z0 -> q2,Z0`
-
-**Example Output:**
-
-**NPDA Execution Diagram:**
-![NPDA Execution Diagram](npda_execution.png)
-
-**NPDA Definition Diagram:**
-![NPDA Definition Diagram](npda_definition_diagram.png)
 
 ## Setup
 
