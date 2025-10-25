@@ -1,0 +1,14 @@
+states: q0,q1,q2
+input_symbols: a,b
+stack_symbols: Z0,A
+initial_state: q0
+initial_stack_symbol: Z0
+final_states: q2
+acceptance_mode: final_state
+
+Transitions:
+q0,a,Z0 -> q0,A,Z0
+q0,a,A -> q0,A,A
+q0,b,A -> q1,lambda
+q1,b,A -> q1,lambda
+q1,lambda,Z0 -> q2,Z0

@@ -1,0 +1,16 @@
+digraph NPDA_Execution {
+    rankdir=LR;
+    node [shape="box"];
+    node_0 [label="(q0, Z0, aabb)", style="filled", fillcolor="lightgreen"];
+    node_1 [label="(q0, Z0A, abb)", style="filled", fillcolor="lightblue"];
+    node_2 [label="(q0, Z0AA, bb)", style="filled", fillcolor="lightblue"];
+    node_3 [label="(q1, Z0A, b)", style="filled", fillcolor="lightblue"];
+    node_4 [label="(q1, Z0, )", style="filled", fillcolor="lightblue"];
+    node_5 [label="(q2, Z0, )", style="filled", fillcolor="lightblue"];
+    node_4 -> node_5 [label="ε,Z0/Z0", color="red", penwidth="2"];
+    node_4 -> node_5 [label=",Z0/Z0", color="red", penwidth="2"];
+    node_0 -> node_1 [label="a,Z0/AZ0", color="red", penwidth="2"];
+    node_1 -> node_2 [label="a,A/AA", color="red", penwidth="2"];
+    node_3 -> node_4 [label="b,A/ε", color="red", penwidth="2"];
+    node_2 -> node_3 [label="b,A/ε", color="red", penwidth="2"];
+}
