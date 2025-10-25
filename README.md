@@ -52,6 +52,14 @@ Transitions should be defined one per line in the format:
 `q1,b,A -> q1,lambda`
 `q1,c,Z0 -> q2,Z0`
 
+**Example Output:**
+
+**NPDA Execution Diagram:**
+![NPDA Execution Diagram](npda_execution.png)
+
+**NPDA Definition Diagram:**
+![NPDA Definition Diagram](npda_definition_diagram.png)
+
 ## Setup
 
 To run this project on your machine, follow these steps:
