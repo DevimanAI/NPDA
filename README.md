@@ -58,7 +58,7 @@ To run this project on your machine, follow these steps:
 
 1.  **Clone the repository (if applicable):**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/DevimanAI/NPDA.git
     cd NPDA
     ```
 
@@ -70,7 +70,7 @@ To run this project on your machine, follow these steps:
 
 3.  **Install Graphviz:**
     Graphviz is required to render the DOT files into PNG images.
-    -   **Windows:** Download and install from the [Graphviz website](https://graphviz.org/download/windows/). Make sure to add Graphviz to your system's PATH during installation or manually.
+    -   **ویندوز (Windows):** Graphviz را از [وب‌سایت Graphviz](https://graphviz.org/download/windows/) دانلود و نصب کنید. اطمینان حاصل کنید که در طول نصب، Graphviz را به PATH سیستم خود اضافه کرده‌اید یا این کار را به صورت دستی انجام دهید.
     -   **macOS:**
         ```bash
         brew install graphviz
